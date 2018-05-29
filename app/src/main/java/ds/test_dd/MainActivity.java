@@ -6,6 +6,7 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
     private int pelusa;
+    private int chanclas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
