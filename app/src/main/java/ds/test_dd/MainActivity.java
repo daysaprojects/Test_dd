@@ -24,5 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private void culpable() {
         // Windows 10 era el culpable, pues guarda los usuarios en un sitio de credenciales y tenía asociado a
         // GitHub, mi cuenta y por eso decía que no tenía permiso.
+
+        //VAYA COJONES!!!!!!!
     }
 }
