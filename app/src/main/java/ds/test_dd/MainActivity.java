@@ -26,5 +26,7 @@ public class MainActivity extends AppCompatActivity {
         // GitHub, mi cuenta y por eso decía que no tenía permiso.
 
         //VAYA COJONES!!!!!!!
+
+        Toast.makeText(this, getString(sonido), Toast.LENGTH_SHORT).show();
     }
 }
