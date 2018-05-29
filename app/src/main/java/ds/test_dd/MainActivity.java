@@ -2,6 +2,7 @@ package ds.test_dd;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,9 +21,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-    private void culpable() {
+    private void culpable(int sonido) {
         // Windows 10 era el culpable, pues guarda los usuarios en un sitio de credenciales y tenía asociado a
         // GitHub, mi cuenta y por eso decía que no tenía permiso.
+
+        Toast.makeText(this, getString(sonido), Toast.LENGTH_SHORT).show();
     }
 }
